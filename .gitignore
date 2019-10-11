@@ -1,4 +1,6 @@
 .idea/
 __pycache__/
 .ipynb_checkpoints/
+cmake-build*/
+CMakeLists.txt
 

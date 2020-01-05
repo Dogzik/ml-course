@@ -87,7 +87,7 @@ void network::fit_epoch(const std::vector<tensor> &images, const std::vector<int
     loss += process_image(images[i], real_labels[i]);
     ++k;
     if (k == 1000) {
-      std::cout << loss << std::endl;
+      std::cerr << loss << std::endl;
       k = 0;
       loss = 0;
     }
